@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    app:layout_behavior=".TambahProdukActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarpengeluaran"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:navigationIcon="@drawable/ic_back">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppinsextra"
+                    android:text="Tambah Pengeluaran"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="120dp"
+        app:layout_behavior="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edititemketerangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:inputType="text"
+            android:hint="Masukan Keterangan"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Jumlah Produk"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editjumlahProduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:inputType="numberSigned"
+            android:hint="Masukan Jumlah Produk"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Jumlah Uang"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editjumlahuang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:inputType="numberSigned"
+            android:hint="Masukan Jumlah Uang"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/edittanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:hint="Masukan Tanggal"
+            android:imeOptions="actionNext"
+            android:focusableInTouchMode="false"
+            android:inputType="date"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Sumber Toko"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editsumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:inputType="text"
+            android:hint="Masukan Sumber Toko"
+            android:textColorHint="@color/gray_light"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/additembuttonpengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:text="Tambah"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/poppinsextra"
+        android:layout_marginTop="600dp" />
+
+
+</RelativeLayout>

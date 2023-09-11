@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726752364346",
+    "firebase_url": "https://aplikasiinventorypi-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aplikasiinventorypi",
+    "storage_bucket": "aplikasiinventorypi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726752364346:android:79add96a11bfed98bdf203",
+        "android_client_info": {
+          "package_name": "com.yaris.hitungpengeluaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726752364346-gjsh61d0m7hv4f1vih6jtk7de0m7vdcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yaris.hitungpengeluaran",
+            "certificate_hash": "dbd14ae2337658ec21afa4ed14ffc1251fceff23"
+          }
+        },
+        {
+          "client_id": "726752364346-ah57kl8g7iqrv0q7tjtfvgaucpo1dv8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2A9JQTcwTx_r9-wVBw_oGzqvPXELbZBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726752364346-ah57kl8g7iqrv0q7tjtfvgaucpo1dv8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">InvenSmart</string>
+    <string name="about_desc">Aplikasi Inventory adalah sebuah aplikasi penyimpanan stok barang yang dirancang untuk membantu dan mempermudah pekerjaan pada pengelolaan inventaris diperusahaan. Aplikasi Inventory ini bertujuan untuk memberikan solusi yang efisien dalam pengecekan stok barang, pengadaan, penjualan, dan aktivitas transaksi dari stok barang.</string>
+    <string name="version">Versi Aplikasi 1.0</string>
+
+    <string name="main">Halaman produk berguna untuk menampilkan seluruh produk yang tersedia. Kamu dapat menambahkan produk kamu dengan klik + untuk Tambah Produk dan kamu juga bisa mengupdate/hapus pada produk.</string>
+    <string name="main2">Halaman transaksi keluar ini berguna untuk menampilkan seluruh transaksi pengeluaran anda. Kamu dapat menambahkan pengeluaran kamu dengan klik + untuk Tambah Pengeluaran dan kamu juga bisa mengupdate/hapus pada pengeluaran.</string>
+    <string name="main4">Halaman pelanggan ini berguna untuk menampilkan seluruh pelanggan anda yang pernah beli ditoko. Kamu juga dapat menambahkan pelanggan kamu dengan klik + untuk Tambah Pelanggan dan kamu juga bisa mengupdate/hapus pada data pelanggan.</string>
+    <string name="main3">Halaman transaksi masuk ini berguna untuk menampilkan seluruh transaksi masuk anda. Kamu dapat menambahkan transaksi kamu dengan klik + untuk Tambah Transaksi dan kamu juga bisa mengupdate/hapus pada transaksi.</string>
+    <string name="main5">Halaman about ini berguna untuk menampilkan informasi yang ada pada aplikasi.</string>
+    <string name="main6">Untuk keluar aplikasi, kamu dapat melakukan dengan klik pada menu Exit.</string>
+
+    <string name="bar_code_number">Bar Code Number</string>
+    <string name="exp">Exp :</string>
+    <string name="status">Status :</string>
+    <string name="barcode45">Barcode :</string>
+    <string name="item_price">Harga :</string>
+    <string name="item_price2">Harga :</string>
+    <string name="item_category">Deskripsi :</string>
+    <string name="StokBarang">Stok :</string>
+    <string name="total_harga">Total Harga :</string>
+    <string name="uang_bayar">Uang Bayar :</string>
+    <string name="uang_kemablian">Uang Kembalian :</string>
+    <string name="item_name">Nama :</string>
+    <string name="item_produk">Produk :</string>
+    <string name="item_namepembeli">Nama Pembeli :</string>
+    <string name="scan_bar_code">ScanBarCode</string>
+    <string name="add_item">Tambah Barang</string>
+    <string name="barcode">Barcode -</string>
+    <string name="item_kuantitas">Kuantitas :</string>
+    <string name="tanggalPembelian">Ditambahkan Pada :</string>
+    <string name="keterangan">Keterangan :</string>
+    <string name="tanggal">Tanggal :</string>
+    <string name="jumlahuang">Jumlah Uang :</string>
+    <string name="catat">Transaksi Keluar</string>
+    <string name="produk">Produk</string>
+    <string name="transaksi">Transaksi Masuk</string>
+    <string name="laporan">Pemasukan</string>
+    <string name="tentang">Tentang</string>
+    <string name="exit">Exit</string>
+    <string name="bantuan">Butuh Bantuan ?</string>
+    <string name="id">Id :</string>
+    <string name="sumber">Sumber Toko :</string>
+    <string name="pelanggan">Pelanggan</string>
+    <string name="nama">Nama Pelanggan : </string>
+    <string name="alamat">Alamat : </string>
+    <string name="nohp">No Hp : </string>
+    <string name="jumlah">Jumlah Produk : </string>
+
+    <string-array name="item_status_array">
+        <item>Layak</item>
+        <item>Tidak Layak</item>
+    </string-array>
+
+</resources>
